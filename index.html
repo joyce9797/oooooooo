@@ -994,7 +994,6 @@
     {
         id: 5,
         text: "咩。",
-        background: "好奇星草叢",
         characters: ["好奇星"],
         background: "好奇星草叢",
         bgm: "/audio/1.貫穿好奇星球.mp3",
@@ -2174,7 +2173,7 @@
         id: 134,
         text: "嗯！珠寶店也要營運順利喔！",
         characters: ["星辰驕傲"]
-    },
+    }
     // 同情星結束
 
     
@@ -2190,7 +2189,7 @@
             '/pct/同情星正常.png', '/pct/同情星= =.png', '/pct/同情星喜極而泣🥹.png',
             '/pct/3爽快星⭐️.png', '/pct/4熱情星⭐️.png', '/pct/同情星 自信的北港五隻虎.png',
             '/pct/好奇星 一群好奇星.png', '/pct/好奇星哭.png', '/pct/好奇星哭小尾巴.png',
-            '/pct/好奇星開心閉眼.png', '/pct/好奇星路人張嘴.png', '/pct/好奇星路人閉嘴.png',
+            '/pct/好奇星開心閉眼.png', '/pct/好奇星路人張嘴.png', '/pct/好奇星路人閉嘴.png'
         ]; 
 
         let loadedCount = 0;
@@ -2312,7 +2311,7 @@ document.querySelectorAll('.背景圖, .背景').forEach(el => {
     el.classList.remove('is-shaking', 'bg-impact-shake');
 });
     
-// 2. 顯示當前劇情的背景
+// 2. 顯示當前劇情背景
 const currentBgId = scene.background || '好奇星草原'; // 預設背景
 const bgContainer = document.getElementById(currentBgId);
 
